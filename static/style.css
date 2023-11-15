@@ -1,0 +1,34 @@
+:root{
+    --red:#E01400;
+    --blue:#16DEE0;
+}
+
+#navbar{
+    background-color: var(--red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+#logo{
+    width: 20%;
+}
+
+#logo img{
+    height: 50%;
+    width: 25%;
+    object-fit: scale-down;
+}
+
+#search-bar{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+footer{
+    background-color: var(--red);
+    display: flex;
+    justify-content: space-between;
+}
