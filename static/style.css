@@ -83,3 +83,56 @@ i{
     padding: 1em;
     color: white;
 }
+
+#login{
+    padding: 2em;
+    display: flex;
+    margin: auto;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blue);
+    border-color: black;
+    border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #login {
+      width: 75%;
+    }
+
+    #content-drawer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #destaques{
+        display: none;
+    }
+
+    footer{
+        margin-top: auto;
+    }
+
+    #optionsbar{
+        display: none;
+    }
+
+    .pesquisa{
+        display: none;
+    }
+
+    .login{
+        display: none;
+    }
+
+  }
