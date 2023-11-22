@@ -43,3 +43,43 @@
     height: 50px;
     width: 80px;
 }
+
+#destaques{
+    display: flex;
+    justify-content: center;
+}
+
+.destaque{
+    height: 250px;
+    width: 512px;
+    padding: 2rem;
+}
+
+#content-drawer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.products{
+    border-radius: 12px;
+    height: 325px;
+    width: 250px;
+    background-color: #16DEE0;
+}
+
+#footer{
+    background-color: var(--red);
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+p{
+    color: white;
+}
+i{
+    padding: 1em;
+    color: white;
+}
